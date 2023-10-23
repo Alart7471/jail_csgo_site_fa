@@ -1,0 +1,47 @@
+html{
+    max-width: 100vw;
+    max-height: 100vv;
+    overflow-x: hidden;
+}
+
+#body{
+    padding: 0;
+    margin: 0;
+    background-color: unset;
+}
+
+.container-fluid{
+    background-color: rgb(170, 170, 113);
+    height: 7vh;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.fixed-header{
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    
+}
+
+.event{
+    width: 50%;
+    margin: auto;
+}
+
+.event:nth-child(even){
+    background-color: aquamarine;
+    
+}
+.event:nth-child(odd){
+    background-color: rgb(77 123 109);
+}
+
+.event-date{
+    text-align: left;
+
+}
+
+.event-msg{
+    text-align: center;
+}

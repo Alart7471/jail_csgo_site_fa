@@ -1,0 +1,76 @@
+html{
+    max-width: 100vw;
+    max-height: 100vv;
+    overflow-x: hidden;
+}
+
+#body{
+    padding: 0;
+    margin: 0;
+    background-color: unset;
+}
+
+.container-fluid{
+    height: 7vh;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.fixed-header{
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    
+}
+
+.se{
+    margin-top: 7vh;
+}
+
+
+.numbers{
+    background-color: rgb(128, 99, 99);
+}
+
+.main_number{
+    background-color: aqua;
+    font-size: large;
+}
+
+.serverHistoryContainer{
+    
+    margin-top: 2vh;
+    margin-left: 7vh;
+}
+
+.serverHistoryBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.el{
+    margin-top: 0px;
+    width: 50%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.item .text {
+  text-align: center;
+}
+
+.newHistoryCont {
+    max-height: 88vh;
+    overflow-y: auto;
+    margin-top: 5px;
+}

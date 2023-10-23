@@ -1,0 +1,39 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid{
+    background-color: rgb(170, 170, 113);
+    height: 7vh;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.fixed-header{
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    
+}
+
+.container_news{
+    background-color:antiquewhite;
+}
+
+.news{
+    background-color: rgb(168, 124, 69);
+}
+
+.col-3{
+    max-height: 93vh;
+    overflow: auto;
+}
+.col-6{
+    max-height: 93vh;
+    overflow: auto;
+}
+
+.lorem{
+    display: none;
+}
