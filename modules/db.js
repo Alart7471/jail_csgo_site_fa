@@ -3,7 +3,7 @@ import { getTodayDateformatted, getTodayDate } from './today.js'
 
 var query_getNews="SELECT * from news"
 var query_getServerEvents="SELECT * from "
-var pass = 'Chip.acro.pro12'
+var pass = '********************'
 
 export function getSqlPassword(pass){
     pass = pass
@@ -14,9 +14,9 @@ export function loadNewsDb(pass) {
     return new Promise((resolve, reject) => {
     const connection = mysql.createConnection({
         client:'mysql2',
-        host: "185.255.135.162",
-        user: "alartroot",
-        database: "test_jail_site_ver1",
+        host: "********************",
+        user: "********************",
+        database: "********************",
         password: pass
     });
     
@@ -89,9 +89,9 @@ function checkTodayTableDb(query){
     return new Promise((resolve, reject) => {
         const connection = mysql.createConnection({
             client:'mysql2',
-host: "185.255.135.162",
-            user: "alartroot",
-            database: "test_jail_site_ver1",
+host: "********************",
+            user: "********************",
+            database: "********************",
             password: pass
         });
         
@@ -127,9 +127,9 @@ function createTodayTable(){
     let query_createTodayTable = 'CREATE TABLE `serverevents-'+getTodayDateformatted()+'` (`id` INT AUTO_INCREMENT PRIMARY KEY,`text` VARCHAR(255),`date` TEXT);'
     const connection = mysql.createConnection({
         client:'mysql2',
-host: "185.255.135.162",
-        user: "alartroot",
-        database: "test_jail_site_ver1",
+host: "********************",
+        user: "********************",
+        database: "********************",
         password: pass
     });
     
@@ -164,9 +164,9 @@ export function getTodayServerHistoryDb(){
     return new Promise((resolve, reject) => {
         const connection = mysql.createConnection({
             client:'mysql2',
-host: "185.255.135.162",
-            user: "alartroot",
-            database: "test_jail_site_ver1",
+host: "********************",
+            user: "********************",
+            database: "********************",
             password: pass
         });
         
@@ -201,9 +201,9 @@ export function addToServerHistoryDb(str){
     let query = 'INSERT INTO `serverevents-'+getTodayDateformatted()+'`(text, date) VALUES (?,?)'
     const connection = mysql.createConnection({
         client:'mysql2',
-host: "185.255.135.162",
-        user: "alartroot",
-        database: "test_jail_site_ver1",
+host: "********************",
+        user: "********************",
+        database: "********************",
         password: pass
     });
     
@@ -239,9 +239,9 @@ host: "185.255.135.162",
 //     return new Promise((resolve, reject) => {
 //     const connection = mysql.createConnection({
 //         client:'mysql2',
-//         host: "185.255.135.162",
-//         user: "alartroot",
-//         database: "test_jail_site_ver1",
+//         host: "********************",
+//         user: "********************",
+//         database: "********************",
 //         password: pass
 //     });
     
@@ -276,9 +276,9 @@ export function showOneServerHistoryDb(q){
     return new Promise((resolve, reject) => {
         const connection = mysql.createConnection({
             client:'mysql2',
-host: "185.255.135.162",
-            user: "alartroot",
-            database: "test_jail_site_ver1",
+host: "********************",
+            user: "********************",
+            database: "********************",
             password: pass
         });
         
